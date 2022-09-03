@@ -168,21 +168,37 @@ footer ul{
 
 
 /* Match */
+.new-match{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.match-box {
+    border: 1px solid #16161637;
+    padding: 10px;
+}
+
 .next-match{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .next-match-image{
     width: 50px;
     height: 50px;
+    padding: 10px;
 }
 
-.new-match{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border: 1px solid #161616;
-    
+.tc {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 810px) {
