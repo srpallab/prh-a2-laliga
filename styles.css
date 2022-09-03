@@ -280,6 +280,7 @@ footer ul{
     }
     footer {
 	height: 100%;
+	overflow: hidden;
     }
     footer ul{
 	flex-direction: column;
